@@ -1,0 +1,110 @@
+body {
+  overflow: hidden;
+}
+body.main {
+  background-image: url("/static/Background.png");
+}
+body.recognize {
+  background-image: url("/static/Background2.jpg");
+  /* background-image: url(../static/Background2.jpg); */
+}
+
+/* COMMON */
+
+.navigation {
+  width: 100%;
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0.863);
+  border-radius: 1vh;
+}
+nav {
+  width: 100%;
+}
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+}
+li {
+  padding-right: 5vh;
+  padding-top: 1vh;
+  list-style-type: none;
+  font-size: 2.5vh;
+  color: aliceblue;
+}
+
+/* INDEX.HTML BODY */
+.container1 {
+  position: absolute;
+  top: 30%;
+  display: flexbox;
+  /* background-color: rgba(96, 255, 157, 0.7); */
+  width: 70%;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.description {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.897);
+  padding: 3%;
+  border-radius: 2vh;
+  box-shadow: 5px 5px rgba(54, 54, 54, 0.3);
+  /* width: 70%; */
+  /* padding-left: 15%; */
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 23%;
+  left: 40%;
+  font-size: 3vh;
+  padding: 0.4%;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(96, 255, 157, 0.5); */
+}
+
+#launch-main {
+  position: absolute;
+  top: 54%;
+  left: 48.7%;
+  padding: 0.7% 1.2% 0.7% 1.2%;
+  border-radius: 10px;
+  background-color: rgb(51, 255, 51);
+  color: rgb(0, 0, 0);
+}
+
+#launch-main:hover {
+  color: white;
+  background-color: rgb(149, 67, 255);
+  cursor: pointer;
+}
+
+/* WEB.HTML BODY */
+
+h1.title_1 {
+  padding-left: 6%;
+}
+
+.web_btn {
+  position: relative;
+  padding: 0.7% 1.2% 0.7% 1.2%;
+  border-radius: 10px;
+  border-color: black;
+  margin-left: 7.5%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.web_btn:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
