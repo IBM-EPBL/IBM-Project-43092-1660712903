@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Home</title>
+  </head>
+  <body class="recognize">
+    <div class="navigation">
+      <nav>
+        <ul class="nav">
+          <a href="{{ url_for('upload_file')}}"> <li>Home</li></a>
+          <a href="{{ url_for('upload_file3')}}"> <li>Recognize</li></a>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="title_1">Digit recognition</h1>
+    <br /><br />
+    <h1 class="title_1">Recognized digit is {{showcase}}</h1>
+  </body>
+</html>
